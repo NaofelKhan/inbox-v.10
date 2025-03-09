@@ -1,11 +1,12 @@
-import './index.css'
-import { Button } from "@/components/ui/button"
+import Header from "@/components/Header"
+import Sidebar from "@/components/FirstSidebar"
+import SecondSidebar from "@/components/SecondSidebar"
 function App() {
   return (
     <>
-      <p className="text-3xl p-0 m-0 font-bold">Realtime Chat</p>
-      <Button>Button</Button>
-
+      <Header/>
+      <Sidebar/>
+      <SecondSidebar/>
     </>
   )
 }
